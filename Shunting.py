@@ -45,7 +45,7 @@ def shunting_yard(expression):
     return output_queue
 
 
-file_path = "C:/Users/gsant/Desktop/TeoriaComputacion/Lab2/dataEjercicio3.txt"  # Path to the text file
+file_path = "./dataEjercicio3.txt"  # Path to the text file
 # Read the lines from the data.txt file
 with open(file_path, 'r', encoding='utf-8') as file:
     lines = file.readlines()

@@ -15,7 +15,7 @@ def is_balanced(expression):
     return len(stack) == 0
 
 
-file_path = "C:/Users/gsant/Desktop/TeoriaComputacion/Lab2/dataEjercicio2.txt"  # Path to the text file
+file_path = "./dataEjercicio2.txt"  # Path to the text file
 
 with open(file_path, "r", encoding="utf-8") as file:
     for line in file:
